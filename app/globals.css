@@ -152,7 +152,7 @@
     position: relative;
     padding: 5px;
     top: -120px;
-    border-radius: 25px;
+    /* border-radius: px; */
   }
 
  }

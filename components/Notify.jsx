@@ -64,7 +64,7 @@ const Notify = () => {
           ) : (
           <>
            Be the first to know! Share your email and we&apos;ll notify
-           <span className='flex items-center ml-28'>you when it&apos;s live.</span>
+           <span className='ml-2'>you when it&apos;s live.</span>
            </>
            )}
 
