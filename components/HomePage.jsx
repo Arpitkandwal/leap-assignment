@@ -7,7 +7,7 @@ import LiveNow from "./LiveNow";
 import Banner from "./Banner";
 
 const HomePage = () => {
-  const [timeLeft, setTimeLeft] = useState(30);
+  const [timeLeft, setTimeLeft] = useState(5);
   const [showModal, setShowModal] = useState(false);
   const [showTimer, setShowTimer] = useState(false);
 
@@ -50,9 +50,9 @@ const HomePage = () => {
 
                 {/* for small devices  */}
                 <div className="block sm:hidden relative -top-16">
-                  <h1 className="text-4xl font-semibold">Launching New Module</h1>
+                  <h1 className="text-2xl font-semibold">Launching New Module</h1>
                 <div className="flex justify-center items-center space-x-2 mt-2">
-                  <h1 className="text-4xl font-semibold">Soon!</h1>
+                  <h1 className="text-2xl font-semibold">Soon!</h1>
                 <BsRocketTakeoff className="animate-rocket text-4xl" />
                 </div>
                 </div>
@@ -73,7 +73,12 @@ const HomePage = () => {
                   available soon!
                 </div>
 
-                <div className="Reveal text-center pt-10 font-bold text-2xl tracking-widest pb-10">
+                <div className="hidden sm:block Reveal text-center pt-10 font-bold text-2xl tracking-widest pb-10">
+                  GET READY FOR THE REVEAL!
+                </div>
+
+                {/* for smaller devices  */}
+                <div className="block sm:hidden Reveal text-center pt-10 font-bold text-lg tracking-widest pb-10">
                   GET READY FOR THE REVEAL!
                 </div>
                 {showTimer && (

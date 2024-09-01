@@ -22,7 +22,7 @@ const QuestionPage = () => {
         />
       </div>
       <hr className='mt-5' />
-      <div className='absolute bottom-10 right-6 bg-gray-800 p-3 rounded-full'>
+      <div className='absolute bottom-16 right-6 bg-gray-800 p-3 rounded-full'>
         <MdArrowUpward className='text-white text-2xl' />
       </div>
     </div>
