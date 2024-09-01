@@ -7,7 +7,7 @@ import LiveNow from "./LiveNow";
 import Banner from "./Banner";
 
 const HomePage = () => {
-  const [timeLeft, setTimeLeft] = useState(5);
+  const [timeLeft, setTimeLeft] = useState(30);
   const [showModal, setShowModal] = useState(false);
   const [showTimer, setShowTimer] = useState(false);
 
